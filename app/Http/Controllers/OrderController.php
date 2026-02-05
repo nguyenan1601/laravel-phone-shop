@@ -141,7 +141,7 @@ class OrderController extends Controller
             DB::commit();
             session()->forget('cart');
 
-            return redirect('/')->with('success', 'Đơn hàng của bạn đã được đặt thành công! Mã đơn hàng: #' . $order->id);
+            return redirect()->route('orders.show', $order->id)->with('success', 'Đơn hàng của bạn đã được đặt thành công! Vui lòng thanh toán để hoàn tất.');
 
         } catch (\Exception $e) {
             DB::rollBack();

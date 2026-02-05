@@ -23,7 +23,7 @@
                                 </a>
                             </div>
                             <div class="mt-3 sm:mt-0 sm:ml-3">
-                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10 transition-all">
+                                <a href="{{ url('/promotions') }}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10 transition-all">
                                     Xem khuyến mãi
                                 </a>
                             </div>
@@ -81,7 +81,7 @@
     <!-- Brands -->
     <section class="py-16 bg-white border-y border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+            <div class="flex flex-wrap justify-center items-center gap-12 md:gap-24">
                 <img src="{{ asset('images/Apple-logo.png') }}" alt="Apple" class="h-10 md:h-12 w-auto">
                 <img src="{{ asset('images/Samsung-logo.png') }}" alt="Samsung" class="h-8 md:h-10 w-auto">
                 <img src="{{ asset('images/oppo-logo.png') }}" alt="Oppo" class="h-8 md:h-10 w-auto">

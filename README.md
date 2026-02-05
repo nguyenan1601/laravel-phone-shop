@@ -4,7 +4,7 @@ Chào mừng đến với **PhoneXịn** - Nền tảng bán lẻ điện thoạ
 
 ## ✨ Giới thiệu
 
-**PhoneXịn** là đồ án môn học Thực tập Kỹ thuật Phần mềm, hướng tới việc xây dựng một website bán hàng hoàn chỉnh với đầy đủ các quy trình từ tìm kiếm sản phẩm, đặt hàng, thanh toán đến quản trị kho và đơn hàng.
+**PhoneXịn** là đồ án môn học thiết kế phần mềm, hướng tới việc xây dựng một website bán hàng hoàn chỉnh với đầy đủ các quy trình từ tìm kiếm sản phẩm, đặt hàng, thanh toán đến quản trị kho và đơn hàng.
 
 ## 🚀 Tính năng Nổi bật
 
@@ -35,7 +35,7 @@ Chào mừng đến với **PhoneXịn** - Nền tảng bán lẻ điện thoạ
 1. **Clone dự án**:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/nguyenan1601/laravel-phone-shop.git
     cd tkpm
     ```
 

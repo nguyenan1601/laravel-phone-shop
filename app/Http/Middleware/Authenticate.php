@@ -15,6 +15,9 @@ class Authenticate extends Middleware
     protected function redirectTo($request)
     {
         if (! $request->expectsJson()) {
+            if ($request->is('checkout') || $request->is('place-order') || $request->is('orders*')) {
+                session()->flash('error', 'Bạn cần đăng nhập để thực hiện chức năng này.');
+            }
             return route('login');
         }
     }
