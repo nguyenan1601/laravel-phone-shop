@@ -67,9 +67,9 @@
                         </h3>
                         <div class="flex items-center justify-between mt-4">
                             <span class="text-xl font-black text-gray-900">{{ number_format($phone->price, 0, ',', '.') }}đ</span>
-                            <button class="bg-gray-900 text-white p-2 rounded-full hover:bg-blue-600 transition-colors">
-                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
-                            </button>
+                            <a href="{{ url('/phones/'.$phone->id) }}" class="bg-gray-900 text-white p-2 rounded-full hover:bg-blue-600 transition-colors">
+                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </a>
                         </div>
                     </div>
                 </div>
